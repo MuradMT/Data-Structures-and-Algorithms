@@ -4,6 +4,7 @@
 <p>2)tsc Helloworld.ts</p>
 <p>3)node Helloworld.js</p>
 <span><strong>Big O Notation</strong></span>
+<br>
 <span><strong>Data Structures</strong></span>
 <ul type="circle">
   <li>Array</li>
