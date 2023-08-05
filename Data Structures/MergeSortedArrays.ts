@@ -1,7 +1,7 @@
 "use strict";
 //C# Approach
-const mergeSortedArr=(arr1:any[],arr2:any[]):any[]=>{
-    const arr:any[]=[];
+function mergeSortedArr<T>(arr1:T[],arr2:T[]):T[]{
+    const arr:T[]=[];
     let len=arr1.length+arr2.length;
     let count=0;
     let con=0;
@@ -25,7 +25,7 @@ const mergeSimple=(arr1:any[],arr2:any[]):any[]=>{
     return arr1;
 }
 const mergeSimpleSpread=(arr1:any[],arr2:any[]):any[]=>[...arr1,...arr2];
-console.log(mergeSortedArr([1,2,3],[6,8,9]));
+console.log(mergeSortedArr<number>([1,2,3,],[6,8,9]));
 console.log(mergeSimple([1,2,3],[6,8,9]));
 console.log(mergeSimpleSpread([1,2,3],[6,8,9]));
 

@@ -1,4 +1,8 @@
 "use strict";
+//Array Big O Notation
+//Access - O(1)
+//Search - O(n)
+//Static and Dynamic Array in TypeScript
 class MyArr {
   length: number;
   data: any;
