@@ -1,5 +1,5 @@
-<h1>Data Structures and Alghoritms</h1>
-<h5>Execute TypeScript File in Visual Studio Code Terminal Steps:</h5>
+<h1 style="color🏴">Data Structures and Alghoritms</h1>
+<h5><strong>Execute TypeScript File in Visual Studio Code Terminal Steps:</strong></h5>
 <p>1)npm install -g typescript</p>
 <p>2)tsc Helloworld.ts</p>
 <p>3)node Helloworld.js</p>
