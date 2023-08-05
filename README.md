@@ -3,9 +3,8 @@
 <p>1)npm install -g typescript</p>
 <p>2)tsc Helloworld.ts</p>
 <p>3)node Helloworld.js</p>
-<span><strong>Big O Notation</strong></span>
-<br>
-<span><strong>Data Structures</strong></span>
+<p><strong>Big O Notation</strong></p>
+<p><strong>Data Structures</strong></p>
 <ul type="circle">
   <li>Array</li>
 </ul>
