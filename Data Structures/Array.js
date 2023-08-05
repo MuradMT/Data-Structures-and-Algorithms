@@ -13,10 +13,13 @@ var MyArr = /** @class */ (function () {
         this.length++;
         return this.length;
     };
-    MyArr.prototype.pop = function () {
-        var item = this.data[this.length - 1];
+    MyArr.prototype.repeatDel = function () {
         delete this.data[this.length - 1];
         this.length--;
+    };
+    MyArr.prototype.pop = function () {
+        var item = this.data[this.length - 1];
+        this.repeatDel();
         return item;
     };
     MyArr.prototype.delete = function (index) {
@@ -28,8 +31,7 @@ var MyArr = /** @class */ (function () {
         for (var i = index; i < this.length - 1; i++) {
             this.data[i] = this.data[i + 1];
         }
-        delete this.data[this.length - 1];
-        this.length--;
+        this.repeatDel();
     };
     return MyArr;
 }());
