@@ -11,3 +11,12 @@
 <ul type="circle">
   <li>Array</li>
 </ul>
+<p><strong>Algorithms</strong></p>
+<ul type="circle">
+  <li>
+    Dynamic Programming
+     <ul type="square">
+        <li>Kadane Algorithm</li>
+     </ul>
+  </li>
+</ul>
