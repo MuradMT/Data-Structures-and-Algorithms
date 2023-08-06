@@ -1,0 +1,3 @@
+The idea in dynamic programming is to use previous learning as much as possible when iterating via a process.
+The popular Algorithms in dynamic Programming:
+1)Kadane
