@@ -19,5 +19,11 @@
         <li>Kadane Algorithm</li>
      </ul>
   </li>
-  <li>Two Pointer Technique</li>
+   <li>
+    Search
+     <ul type="square">
+        <li>Two Pointer Technique</li>
+     </ul>
+  </li>
+  
 </ul>
