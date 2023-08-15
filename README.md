@@ -1,4 +1,4 @@
-<h1>Data Structures and Alghoritms</h1>
+<h1>Data Structures and Algorithms</h1>
 <h5><strong>How to send empty directories to github:</strong></h5>
 <p>1)npm install touch-cli -g</p>
 <p>2)touch .gitkeep(for each empty folder)</p>
@@ -10,4 +10,13 @@
 <p><strong>Data Structures</strong></p>
 <ul type="circle">
   <li>Array</li>
+</ul>
+<p><strong>Algorithms</strong></p>
+<ul type="circle">
+  <li>
+    Dynamic Programming
+     <ul type="square">
+        <li>Kadane Algorithm</li>
+     </ul>
+  </li>
 </ul>
