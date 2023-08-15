@@ -19,4 +19,5 @@
         <li>Kadane Algorithm</li>
      </ul>
   </li>
+  <li>Two Pointer Technique</li>
 </ul>
