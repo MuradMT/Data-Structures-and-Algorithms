@@ -6,6 +6,13 @@
 <p>1)npm install -g typescript</p>
 <p>2)tsc Helloworld.ts</p>
 <p>3)node Helloworld.js</p>
+<h5><strong>How to add ES6 support to your code:</strong></h5>
+<p>1)npm install -D @types/node</p>
+<h5><strong>How to add gitignore file to your code:</strong></h5>
+<p>1)open git bash</p>
+<p>2)touch .gitignore</p>
+<p>3)in order to add folder to gitignore file:foldername/</p>
+<p>4)in order to add file to gitignore file(specific directory):/text.txt</p>
 <p><strong>Big O Notation</strong></p>
 <p><strong>Data Structures</strong></p>
 <ul type="circle">
