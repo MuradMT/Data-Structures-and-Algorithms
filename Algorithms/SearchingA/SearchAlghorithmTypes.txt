@@ -1,0 +1,5 @@
+There are numerous search alghorithm types.Let's glance them:
+!)Two Pointer technique
+Big O notation O(N)-time complexity
+Space Complexity O(1)
+This technique is useful when you work with two number pairs of array
