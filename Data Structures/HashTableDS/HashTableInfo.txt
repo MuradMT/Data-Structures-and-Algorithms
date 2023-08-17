@@ -5,7 +5,7 @@ converts it to memory adress,then keeps this adress in memory.
 For Instance,we have keys:
 {12,22,15,56}
 Hash function need to allocate memory for adress,for doing this
-it uses K mod 10 technique:
+we are going to use K mod 10 approach,
 then 56->allocated on 6 position
 15->on 5 position
 22->on 2 position 
