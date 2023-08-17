@@ -12,7 +12,7 @@ then 56->allocated on 6 position
 12->on 2 position
 12 and 22 are both located on same adress
 It is called Hash Table Collision
-We are using collision resolution techniques:
+We are using collision resolution techniques in order to solve bewildering collision:
 1)Chaining(open hashing)
 2)Open Adressing(close hashing)-generally we use linear probing way
 Chaning example:
