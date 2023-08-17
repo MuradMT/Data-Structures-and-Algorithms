@@ -18,6 +18,7 @@
 <ul type="circle">
   <li>Array</li>
   <li>Set</li>
+  <li>HashTable</li>
 </ul>
 <p><strong>Algorithms</strong></p>
 <ul type="circle">
