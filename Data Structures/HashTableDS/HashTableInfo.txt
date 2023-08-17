@@ -1,0 +1,45 @@
+We can call it hashtable,dictionary,object,map etc.
+This data structure is using key-value pair approach in order to solve problems.
+Hash Function-obtains the key of hashtable and generates some hash code and
+converts it to memory adress,then keeps this adress in memory.
+For Instance,we have keys:
+{12,22,15,56}
+Hash function need to allocate memory for adress,for doing this
+it uses K mod 10 technique:
+then 56->allocated on 6 position
+15->on 5 position
+22->on 2 position 
+12->on 2 position
+12 and 22 are both located on same adress
+It is called Hash Table Collision
+We are using collision resolution techniques:
+1)Chaining(open hashing)
+2)Open Adressing(close hashing)-generally we use linear probing way
+Chaning example:
+-------------------       {12,23,32} k mod 10
+0-                -
+1-                -
+2-     12         -    -> [32]   //connected with linked list
+3-    23          -
+4-                -
+5-                -
+6-                -
+-------------------
+Open Adressing linear probing example:
+-------------------       {12,23,32} k mod 10
+0-                -
+1-                -
+2-     12         -    |    
+3-    23          -    |
+4-                -    32 <- //is added to first vacant area
+5-                -
+6-                -
+-------------------
+To solve collision problem usually we make our keys unique.
+Hash Function types:md5,sha-1,sha-256(so slow and complex);
+if you generate hash code,you can't access the original value.
+Hash Table Big O Notation for some cases:
+Access-O(1)
+Search-O(1)
+In Typescript,there is Map(with set,get,has,size,delete functions) which similar to HashTable:
+in key section,it uses any type of data.
