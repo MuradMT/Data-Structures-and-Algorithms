@@ -17,6 +17,7 @@
 <p><strong>Data Structures</strong></p>
 <ul type="circle">
   <li>Array</li>
+  <li>Set</li>
 </ul>
 <p><strong>Algorithms</strong></p>
 <ul type="circle">
