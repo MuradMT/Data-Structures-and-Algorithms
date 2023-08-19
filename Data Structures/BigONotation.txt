@@ -1,0 +1,11 @@
+Big-O is a standard mathematical notation that 
+shows how efficient an algorithm is in the worst-case scenario relative to its input size.
+To measure the efficiency of an algorithm, we need to consider two things:
+Time Complexity: How much time does it take to run completely?
+Space Complexity: How much extra space does it require in the process?
+The Big O notation types:O(1),O(N),O(logn),O(N^2)
+Imagine that we have a function and inside this function there is a for loop.
+if the number of condition is fixed,then it means that the Big O Notation is O(1).
+If you obtain the number from function parameter,then it will be  O(N).
+Example:
+1)for(let i=0;i<100;i++)-O(1) 2)for(let i=0;i<n;i++) O(N)
