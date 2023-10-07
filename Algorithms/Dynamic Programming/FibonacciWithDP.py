@@ -1,6 +1,6 @@
 arr=[-1]*45
 def Fibonacci(n):
-    if n<2:
+    if n<2 and n>0:
         return n
     if arr[n]!=-1:
         return arr[n]
