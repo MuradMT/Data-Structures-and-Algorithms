@@ -1,3 +1,5 @@
 The idea in dynamic programming is to use previous learning as much as possible when iterating via a process.
+It is optimization technique.
+Dynamic programming divides problems to subproblems and store their results for using another time.
 The popular Algorithms in dynamic Programming:
 1)Kadane
