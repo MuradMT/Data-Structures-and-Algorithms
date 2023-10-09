@@ -1,7 +1,7 @@
 arr=[-1]*45
 def Fibonacci(n):
     if n<2 and n>0:
-        return n
+        return 1
     if arr[n]!=-1:
         return arr[n]
     arr[n] = Fibonacci(n-1)+Fibonacci(n-2)
