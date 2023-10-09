@@ -6,6 +6,8 @@
 <p>1)npm install -g typescript</p>
 <p>2)tsc Helloworld.ts</p>
 <p>3)node Helloworld.js</p>
+<h5><strong>Execute Python File in Visual Studio Code Terminal:</strong></h5>
+<p>python main.py</p>
 <h5><strong>How to add ES6 support to your code:</strong></h5>
 <p>1)npm install -D @types/node</p>
 <h5><strong>How to add gitignore file to your code:</strong></h5>
