@@ -1,11 +1,14 @@
-arr=[-1]*45
 def Fibonacci(n):
-    if n<2 and n>0:
+    if n==0:
+        return 0
+    if n==1:
         return 1
-    if arr[n]!=-1:
-        return arr[n]
-    arr[n] = Fibonacci(n-1)+Fibonacci(n-2)
-    return arr[n]
+    Fib=[0]*(n+1)
+    Fib[0]=0
+    Fib[1]=1
+    for i in range(2,n+1):
+        Fib[i]=Fib[i-1]+Fib[i-2]
+    return Fib[n]
 n=int(input())
 print(Fibonacci(n))
 #The complexity of recursive function is O(2^n)
