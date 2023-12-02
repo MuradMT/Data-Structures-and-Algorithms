@@ -3,6 +3,7 @@ It is optimization technique.
 Dynamic programming divides problems to subproblems and store their results for using another time.
 Memoization-It is concept in dynamic programming.
 Memoization looks like to caching.
+There are 2 approaches in dynamic programming:top-down and bottom-up.
 Dynamic programming is combination of divide&conquer and memoization.
 The popular Algorithms in dynamic Programming:
 1)Kadane
